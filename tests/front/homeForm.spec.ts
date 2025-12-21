@@ -8,20 +8,21 @@ test('Página Principal', async ({ page }) => {
     // Comprobamos que estamos en la pagina principal comprobando que existe el botón de venta de billetes
     await expect(page.locator('#ticketSearchBt')).toBeVisible();
     // Aceptamos el botón de cookies
-    await page.click('#onetrust-accept-btn-handler');
+    await page.locator('#onetrust-accept-btn-handler').click();
+
 
     // Introucimos MADRID/Barcelona el textfield. Se ha tenido que hacer de esta forma ya que si solamente hacia el fill el botón no se activaba
     await page.fill('#origin', 'MADRID');
     await page.waitForSelector('#awesomplete_list_1 li:has-text("ALMUDENA GRANDES")');
-    await page.click('#awesomplete_list_1 li:has-text("ALMUDENA GRANDES")');
+    await page.locator('#awesomplete_list_1 li:has-text("ALMUDENA GRANDES")').click();
 
     await page.fill('#destination', 'BARCELONA');
     await page.waitForSelector('#awesomplete_list_2 li:has-text("SANTS")');
-    await page.click('#awesomplete_list_2 li:has-text("SANTS")');
-
+    await page.locator('#awesomplete_list_2 li:has-text("SANTS")').click();
+    
     // Click en el input de la fecha y selección de solo un viaje
-    await page.click('#first-input');
-    await page.click('label[for="trip-go"]');
+    await page.locator('#first-input').click();
+    await page.locator('label[for="trip-go"]').click();
     //await page.click('.lightpick__day[data-time="1767135600000"]'); //31 de Diciembre 2025
     //await page.locator('.lightpick__day', { hasText: '31' }).click();
     //await page.locator('div', { hasText: '3148€' }).first().click();
@@ -38,7 +39,7 @@ test('Página Principal', async ({ page }) => {
 
     // Validación de que se ha activado el botón de la venta de billetes y posterior click
     await expect(page.locator('#ticketSearchBt')).toBeEnabled();
-    await page.click('#ticketSearchBt');
+    await page.locator('#ticketSearchBt').click();
 
     // Validación que a la url que vamos es la correcta
     await expect(page).toHaveURL(/buscarTrenEnlaces/);

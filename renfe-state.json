@@ -1,26 +1,6 @@
 {
   "cookies": [
     {
-      "name": "f5avraaaaaaaaaaaaaaaa_session_",
-      "value": "KIALJADFHKHFJGCCDFJPCFMNKOKKMCGPLBDEIBDDGNGHBLJONAGPGPDOCCFOEEPBPBNDHKPPLFAHOBEOLGFAHKGBKAIDBCBHHEMAFPDLMJDNEMIKCLAJKDHMGMLKBKLJ",
-      "domain": "ssl.renfe.com",
-      "path": "/comprabilletes/componentes",
-      "expires": -1,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "f5avraaaaaaaaaaaaaaaa_session_",
-      "value": "JJBPDIJPLDDEEJFADLIOBFJANDCADMDIFNPFAMNGHNOCABMHNFFOMHBHIOBAPFJCGDHDBMGMOFFNGBBBLENAGJLDKAAGIHMBDENEAKKIHIKHJHEPNOFJGHAOGCOFHIMN",
-      "domain": "ssl.renfe.com",
-      "path": "/comprabilletes/img/lt",
-      "expires": -1,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "url_logout",
       "value": "/vol/homeCustomers.do",
       "domain": "venta.renfe.com",
@@ -28,7 +8,7 @@
       "expires": -1,
       "httpOnly": false,
       "secure": true,
-      "sameSite": "None"
+      "sameSite": "Lax"
     },
     {
       "name": "tipoUsuario",
@@ -38,21 +18,21 @@
       "expires": -1,
       "httpOnly": false,
       "secure": true,
-      "sameSite": "None"
+      "sameSite": "Lax"
     },
     {
       "name": "f5avraaaaaaaaaaaaaaaa_session_",
-      "value": "AGEKOLEPPEIALAMPEENMFAGFNNEHHEBOJDEPLNKMKBNPEOJEGAPONMECECBFILMLPAJDOBKNKFJICOEFGPHADBBBJAMALKBGMFLICFEMGBMKPFKPKEPIBELFGNLOIICK",
+      "value": "BBCNBAEKCPEKLCMPCPELLJFFKLFLNKEHCMAGFEHKHDGOMAIFGPBINOMAMHGIONFGKHLDNPAACECDODBACNMAKAEFDFEMJAGPCKPHOGBGJHEFINCAFDBCBODOFJHEGMEM",
       "domain": "venta.renfe.com",
       "path": "/vol",
       "expires": -1,
       "httpOnly": true,
       "secure": true,
-      "sameSite": "None"
+      "sameSite": "Lax"
     },
     {
       "name": "ApplicationGatewayAffinityCORS",
-      "value": "be58debbc2626a17425014965e5e8a44",
+      "value": "d139dd8828dc2283cb6e973d60147700",
       "domain": "www.renfe.com",
       "path": "/",
       "expires": -1,
@@ -62,70 +42,138 @@
     },
     {
       "name": "ApplicationGatewayAffinity",
-      "value": "be58debbc2626a17425014965e5e8a44",
+      "value": "d139dd8828dc2283cb6e973d60147700",
       "domain": "www.renfe.com",
       "path": "/",
       "expires": -1,
       "httpOnly": false,
       "secure": false,
-      "sameSite": "None"
+      "sameSite": "Lax"
     },
     {
       "name": "OptanonAlertBoxClosed",
-      "value": "2025-12-18T13:47:15.701Z",
+      "value": "2025-12-21T20:11:41.288Z",
       "domain": ".renfe.com",
       "path": "/",
-      "expires": 1797601635,
+      "expires": 1797883901,
       "httpOnly": false,
       "secure": false,
-      "sameSite": "None"
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Sun+Dec+21+2025+21%3A11%3A41+GMT%2B0100+(Central+European+Standard+Time)&version=6.24.0&isIABGlobal=false&hosts=&consentId=b987b9b0-5c71-4d4f-bf66-990757acc3a4&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1797883901,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_nr30",
+      "value": "1766347901296-Nuevo",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1768939901,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_gpv",
+      "value": "renfe%3Ahome",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1766349701,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_plt",
+      "value": "1.05",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_pltp",
+      "value": "renfe%3Ahome",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
     },
     {
       "name": "s_dur",
-      "value": "1766065635714",
+      "value": "1766347901297",
       "domain": ".renfe.com",
       "path": "/",
-      "expires": 1766067435,
+      "expires": 1766349701,
       "httpOnly": false,
       "secure": false,
-      "sameSite": "None"
+      "sameSite": "Lax"
     },
     {
       "name": "YSC",
-      "value": "HthoQskDjyQ",
+      "value": "YqXqF5EgHmA",
       "domain": ".youtube.com",
       "path": "/",
       "expires": -1,
       "httpOnly": true,
       "secure": true,
-      "sameSite": "None"
+      "sameSite": "None",
+      "partitionKey": "https://renfe.com",
+      "_crHasCrossSiteAncestor": true
     },
     {
       "name": "VISITOR_INFO1_LIVE",
-      "value": "7H6nyPYmilc",
+      "value": "M0iRa0Kca34",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1781617635.803,
+      "expires": 1781899901.448452,
       "httpOnly": true,
       "secure": true,
-      "sameSite": "None"
+      "sameSite": "None",
+      "partitionKey": "https://renfe.com",
+      "_crHasCrossSiteAncestor": true
     },
     {
       "name": "VISITOR_PRIVACY_METADATA",
-      "value": "CgJFUxIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiAn",
+      "value": "CgJFUxIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiAZ",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1781617635.803,
+      "expires": 1781899901.448465,
       "httpOnly": true,
       "secure": true,
-      "sameSite": "None"
+      "sameSite": "None",
+      "partitionKey": "https://renfe.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "value": "CKH7ybrC8erPMBCT3dXZvs-RAxiT3dXZvs-RAw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1781899901.448479,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://renfe.com",
+      "_crHasCrossSiteAncestor": true
     },
     {
       "name": "demdex",
-      "value": "54148249139569789560931046877154534277",
+      "value": "66437206281223074790708095848333744923",
       "domain": ".demdex.net",
       "path": "/",
-      "expires": 1781617654.956,
+      "expires": 1781899901.487762,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -141,223 +189,13 @@
       "sameSite": "None"
     },
     {
-      "name": "everest_g_v2",
-      "value": "g_surferid~aUQF5AAAALJxPQN-",
-      "domain": ".everesttech.net",
-      "path": "/",
-      "expires": 1797601636.07,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "dpm",
-      "value": "54148249139569789560931046877154534277",
-      "domain": ".dpm.demdex.net",
-      "path": "/",
-      "expires": 1781617636.128,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "at_check",
-      "value": "true",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "mbox",
-      "value": "session#051c1f2b170f450ba5c864b03a438fc1#1766067497|PC#051c1f2b170f450ba5c864b03a438fc1.37_0#1829310437",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": 1800625636.321,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "Search",
-      "value": "{\"origen\":{\"code\":\"0071,60000,00600\",\"name\":\"MADRID-PUERTA DE ATOCHA-ALMUDENA GRANDES\"},\"destino\":{\"code\":\"0071,71801,71801\",\"name\":\"BARCELONA-SANTS\"},\"pasajerosAdultos\":1,\"pasajerosNinos\":0,\"pasajerosSpChild\":0}",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "JSESSIONID",
-      "value": "0000tU_hxgXsHEEEBbCp0Wlapi1:1firrtg77",
-      "domain": "venta.renfe.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE",
-      "value": "es_ES",
-      "domain": "venta.renfe.com",
-      "path": "/",
-      "expires": 1800625637.02,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "f5avraaaaaaaaaaaaaaaa_session_",
-      "value": "JJBLNBPNCDOGFADNHKEAOHBIKDAPDKHCMHPKEPHMOBOLIKHEIEMJGCPAENLIKNFKNLMDCMJEKFPNJJGNFAHAEPMOJAJAGENGFBPJAGFPHDKPNBKDJGJPJJANGMGAJMKO",
-      "domain": "venta.renfe.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "Queue-it-cc9a25b4-45ff-42c6-9a14-7d714351f19c",
-      "value": "WasRedirected=false&i=639016624545834133",
-      "domain": "renfe.queue-it.net",
-      "path": "/",
-      "expires": 1766069254.456,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "AMCV_3C9D27E253DB254D0A490D4E%40AdobeOrg",
-      "value": "179643557%7CMCMID%7C54176766983971116170928191097203709896%7CMCAAMLH-1766670454%7C6%7CMCAAMB-1766670454%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1766072854s%7CNONE%7CMCSYNCSOP%7C411-20448%7CvVersion%7C5.5.0%7CMCIDTS%7C20441",
+      "value": "179643557%7CMCMID%7C66453717555947765380709756458540281686%7CMCAAMLH-1766952701%7C6%7CMCAAMB-1766952701%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1766355101s%7CNONE%7CvVersion%7C5.5.0",
       "domain": ".renfe.com",
       "path": "/",
-      "expires": 1800625654.994,
+      "expires": 1800907901.49608,
       "httpOnly": false,
       "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "QueueITAccepted-SDFrts345E-V3_volvce",
-      "value": "EventId%3Dvolvce%26QueueId%3Dcc9a25b4-45ff-42c6-9a14-7d714351f19c%26RedirectType%3Dsafetynet%26IssueTime%3D1766065654%26Hash%3D313f4df889323248db6641d3eaf367ec2ef7b7292c979aa3497a86b406685e76",
-      "domain": "venta.renfe.com",
-      "path": "/",
-      "expires": 1766066855,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "rxVisitor",
-      "value": "1766065655270TSIUAVJ2S5G689LMP4TOCF2MKCIUQNB6",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "__Secure-ROLLOUT_TOKEN",
-      "value": "COuPuZXowfajWBCs3ISXo8eRAxifvMmgo8eRAw%3D%3D",
-      "domain": ".youtube.com",
-      "path": "/",
-      "expires": 1781617655.803,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "dtPC",
-      "value": "6$265653977_256h-vMRCHRBCCCTIRDLCKGGLBCJAAPCVHMKJR-0e0",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "dtCookie",
-      "value": "v_4_srv_6_sn_N5T5H9A9B42J223CK55TVQ5GS9MR14OG_perc_100000_ol_0_mul_1_app-3Ac6e9bc7af60ff026_0",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "TS018d34ad",
-      "value": "0140223b2676b298d77fe5da467b0bf4332e7329da48a003df34c521e076da9f1a387dde797d83ee45e3c517c9b08180e23765d6d9b77a31ae74f4fc01f0d8b8e97a2c37a41708eedb8d65472251233ebf73426afe4228a548a286210b596c4ef81bcc06df95ff1c22a19f7ced5f1aa5bd09b0ec16cea05459a3fc4513376540288e3573c998ca82efe61ccbbd5432c7c073d59563",
-      "domain": ".venta.renfe.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "rxvt",
-      "value": "1766067458589|1766065655271",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "DWRSESSIONID",
-      "value": "zj*zjQIM1aFIVGV8QAO0hIQJNIp",
-      "domain": "venta.renfe.com",
-      "path": "/vol",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "OptanonConsent",
-      "value": "isGpcEnabled=0&datestamp=Thu+Dec+18+2025+14%3A50%3A09+GMT%2B0100+(Central+European+Standard+Time)&version=6.24.0&isIABGlobal=false&hosts=&consentId=eb4bb4ab-dbac-4e25-a52c-b4180df6ca88&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&geolocation=ES%3BCT&AwaitingReconsent=false",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": 1797601809,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "s_nr30",
-      "value": "1766065810779-Nuevo",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": 1768657810,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "s_gpv",
-      "value": "CEX%3ASelecciona%20tu%20viaje",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": 1766067610,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "gttcFunnel",
-      "value": "1766065655995",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": 1766067610,
-      "httpOnly": false,
-      "secure": false,
       "sameSite": "None"
     },
     {
@@ -368,156 +206,93 @@
       "expires": -1,
       "httpOnly": false,
       "secure": false,
-      "sameSite": "None"
+      "sameSite": "Lax"
     },
     {
-      "name": "ORA_FPC",
-      "value": "id=e568e610-ab61-4cb6-b7d5-a61b852a5518",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": 1829179663,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "_GRECAPTCHA",
-      "value": "09ABCLyOEvjlbAqgMDtu9IR-afXD2fTeygFEUdPULmYWztLXSM1t0McYugPkg3ugkp13VV4sRzJyHRq9q955qHR7M",
-      "domain": "www.google.com",
-      "path": "/recaptcha",
-      "expires": 1781617812,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "s_plt",
-      "value": "6.51",
+      "name": "at_check",
+      "value": "true",
       "domain": ".renfe.com",
       "path": "/",
       "expires": -1,
       "httpOnly": false,
       "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "s_pltp",
-      "value": "CEX%3ASelecciona%20tu%20viaje",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "None"
-    },
-    {
-      "name": "WTPERSIST",
-      "value": "",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": 1797601813,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "QuantumMetricUserID",
-      "value": "ba5dbc03f52de654aa5f6e541deaaa45",
-      "domain": ".renfe.com",
-      "path": "/",
-      "expires": 1797601813,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
+      "sameSite": "Lax"
     },
     {
       "name": "s_sq",
-      "value": "%5B%5BB%5D%5D",
+      "value": "renfeglobalpro%3D%2526c.%2526a.%2526activitymap.%2526page%253Drenfe%25253Ahome%2526link%253DBuscar%252520billete%2526region%253DticketSearchBt%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253Drenfe%25253Ahome%2526pidt%253D1%2526oid%253DBuscar%252520billete%2526oidt%253D3%2526ot%253DSUBMIT",
       "domain": ".renfe.com",
       "path": "/",
       "expires": -1,
       "httpOnly": false,
       "secure": false,
-      "sameSite": "None"
+      "sameSite": "Lax"
     },
     {
-      "name": "QuantumMetricSessionID",
-      "value": "253cbc4f26149b0d791d385e7735cb1a",
+      "name": "Search",
+      "value": "{\"origen\":{\"code\":\"0071,60000,00600\",\"name\":\"MADRID-PUERTA DE ATOCHA-ALMUDENA GRANDES\"},\"destino\":{\"code\":\"0071,71801,71801\",\"name\":\"BARCELONA-SANTS\"},\"pasajerosAdultos\":1,\"pasajerosNinos\":0,\"pasajerosSpChild\":0}",
       "domain": ".renfe.com",
       "path": "/",
-      "expires": 1766067614,
+      "expires": -1,
       "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mbox",
+      "value": "session#fe0e6361bb854c6a983a60b43f9deaef#1766349762|PC#fe0e6361bb854c6a983a60b43f9deaef.37_0#1829592702",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1800907901.856799,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "0000-1Io6VZF_M4-Ayam9NU2_m2:1firrtg77",
+      "domain": "venta.renfe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE",
+      "value": "es_ES",
+      "domain": "venta.renfe.com",
+      "path": "/",
+      "expires": 1800907901.915749,
+      "httpOnly": true,
       "secure": true,
-      "sameSite": "None"
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TS018d34ad",
+      "value": "0140223b265f39ddc1ce74ffe5c7d2d31b1cd21d63c140ca9c6d6357f72a2d615b2949e68be4f73cbedcc8cdc2a6b27edc28caf68ca921390ac1f8f971e77f6b8a63aa824ef21e1ce3f52c53b989c722432122138f93b91f0740f2304a91317d1e1a04d5aeb07fc9285d2cad8b83e6c3a6cb5b58865a6d28a9baea99ddd21d9388a22b51a0",
+      "domain": ".venta.renfe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
     },
     {
       "name": "TSbaeb093c027",
-      "value": "08a16edb10ab20009c7be4c3bcf5c61dbd6f6dee66cdba5f3f8fc64d37d08033a59c91c3825d810408f6411c7d113000b6cd1915ddc9d3954358f98b41da1d9dfa8e385563e41a6186faaf7467ecb0b19b3adfe77d95bbd9ac9dd3ea0f3c2417",
+      "value": "08a16edb10ab20001620867c43ab72d9d96a97e8f31bd5de5ab58e52a0e9c35436993edfae523b710883095028113000963055e326a6328111aaf3bca5696aa93af017c041ba251920b2b023777b186337625d9b6a7d3742fba99ea9522d0c12",
       "domain": "venta.renfe.com",
       "path": "/",
       "expires": -1,
       "httpOnly": false,
       "secure": false,
-      "sameSite": "None"
+      "sameSite": "Lax"
     }
   ],
   "origins": [
     {
-      "origin": "https://venta.renfe.com",
-      "localStorage": [
-        {
-          "name": "lastExternalReferrerTime",
-          "value": "1766065809592"
-        },
-        {
-          "name": "ORA_COOK_STORE",
-          "value": "{\"ORA_FPC\":\"ORA_FPC=id=e568e610-ab61-4cb6-b7d5-a61b852a5518; expires=Sun, 19 Dec 2027 01:27:43 GMT; path=/; domain=.renfe.com; secure; secure\",\"WTPERSIST\":\"WTPERSIST=;domain=.renfe.com;path=/;expires=Fri, 18 Dec 2026 13:50:13 GMT; secure\"}"
-        },
-        {
-          "name": "QM_S",
-          "value": "{\"configReplayEnabled\":true,\"s\":\"253cbc4f26149b0d791d385e7735cb1a\",\"exp\":1766067614967,\"event:1c8a9d5ce59c4f6b5a280b7f8e1e397a\":{\"i\":41,\"v\":\"CEX:Selecciona tu viaje\",\"t\":1766065655804},\"event:e0e716d87e3d4465f636bb188a5a917e\":{\"i\":42,\"v\":\"1\",\"t\":1766065655804},\"event:9ac485305f6b4459747956532e72efa1\":{\"i\":43,\"v\":\"Barcelona-Sants - Madrid-Puerta De Atocha-Almudena Grandes\",\"t\":1766065655804},\"event:edc4ddec97c849147e2ea0355d1ff49b\":{\"i\":45,\"v\":\"ida\",\"t\":1766065655804},\"event:e45d42757369439aa14ee8736bb99629\":{\"i\":49,\"v\":\"\",\"t\":1766065655804},\"event:f3e7395838f64c75c1d3d45aff32237e\":{\"i\":66,\"v\":\"MRCHRBCCCTIRDLCKGGLBCJAAPCVHMKJR-0\",\"t\":1766065655804},\"event:3d189496fa564021a4df8da44ee7a29b\":{\"i\":75,\"v\":\"No Registrado\",\"t\":1766065655804},\"slr\":false,\"event:ff06d198362b4f9b97755caf4295f467\":{\"i\":-26,\"v\":\"\",\"t\":1766065656670},\"eSync\":true,\"event:ada0938e1f0a4c646cdf4419984f7dc3\":{\"i\":-67,\"v\":\"1\",\"t\":1766065657177,\"h\":\"79fa591d95e148f152ef63960dd4188e\"},\"event:8923a415d4ef4d1da4f0ac22fea4844b\":{\"i\":41,\"v\":\"CEX:Selecciona tu viaje\",\"t\":1766065812210},\"event:7ec7b9bc33a24019fbfbf02e6316c35d\":{\"i\":49,\"v\":\"\",\"t\":1766065812210}}"
-        },
-        {
-          "name": "com.adobe.reactor.dataElements.marketingID",
-          "value": "\"54176766983971116170928191097203709896\""
-        },
-        {
-          "name": "ABEN5QrkI5fRKgx4jb0awqgI4_WPushconfigData",
-          "value": "{\"appserviceKey\":\"BK_KR1zwQyhQDsda23QOxLW0zPIIQVRl6Ullt8t9tUp20eV9dwtkWRSLHK-6cIhc9X2MBS5SVcI9Bm9mJupzny4=\",\"apiKey\":\"ABEN5QrkI5fRKgx4jb0awqgI4\",\"accountToken\":\"ABEn1Bu4vVN84PxLu1blBe5SE\",\"appver\":\"0.0.0\",\"apiHost\":\"https://ron1qu1-webpush.oraclersys.com\",\"lazy\":false}"
-        },
-        {
-          "name": "lastExternalReferrer",
-          "value": "empty"
-        },
-        {
-          "name": "QM_U",
-          "value": "{\"u\":\"ba5dbc03f52de654aa5f6e541deaaa45\",\"exp\":1797601813459}"
-        }
-      ]
-    },
-    {
       "origin": "https://www.renfe.com",
       "localStorage": [
-        {
-          "name": "tnsApp",
-          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36"
-        },
-        {
-          "name": "tADu",
-          "value": "animationDuration"
-        },
-        {
-          "name": "tTf",
-          "value": "transform"
-        },
-        {
-          "name": "t3D",
-          "value": "true"
-        },
-        {
-          "name": "tTDe",
-          "value": "transitionDelay"
-        },
         {
           "name": "tTE",
           "value": "transitionend"
@@ -527,24 +302,32 @@
           "value": "true"
         },
         {
-          "name": "lastExternalReferrer",
-          "value": "empty"
-        },
-        {
-          "name": "lastExternalReferrerTime",
-          "value": "1766065635918"
+          "name": "tnsApp",
+          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36"
         },
         {
           "name": "tgt:tlm:0",
-          "value": "{\"execution\":149.3,\"parsing\":0.1,\"request\":{\"dns\":3.8,\"tls\":34.8,\"timeToFirstByte\":74.7,\"download\":0.5,\"responseSize\":300},\"telemetryServerToken\":\"P9c48bxzLYzMZ9NaKCqiKFwxi2CxJcjDA4FhIMtTo3E=\",\"mode\":\"edge\",\"features\":{\"executePageLoad\":true,\"prefetchViewCount\":1,\"decisioningMethod\":\"server-side\"},\"requestId\":\"7a5a48b67220467aa429b000d39b8e13\",\"timestamp\":1766065636321}"
+          "value": "{\"execution\":173.7,\"parsing\":0,\"request\":{\"dns\":9.4,\"tls\":43.4,\"timeToFirstByte\":79.3,\"download\":1.9,\"responseSize\":298},\"telemetryServerToken\":\"aCoYVrlhIJT04Cik1Y34MQzHfAQjEnVFQstYqwK/row=\",\"mode\":\"edge\",\"features\":{\"executePageLoad\":true,\"prefetchViewCount\":1,\"decisioningMethod\":\"server-side\"},\"requestId\":\"a3c061e347f54b09b567c466bcf3436b\",\"timestamp\":1766347901856}"
+        },
+        {
+          "name": "tgt:tlm:upper",
+          "value": "0"
+        },
+        {
+          "name": "tTf",
+          "value": "transform"
         },
         {
           "name": "tADe",
           "value": "animationDelay"
         },
         {
-          "name": "tPL",
-          "value": "true"
+          "name": "tADu",
+          "value": "animationDuration"
+        },
+        {
+          "name": "tTDu",
+          "value": "transitionDuration"
         },
         {
           "name": "tAE",
@@ -555,25 +338,24 @@
           "value": "calc"
         },
         {
-          "name": "tTDu",
-          "value": "transitionDuration"
+          "name": "lastExternalReferrerTime",
+          "value": "1766347901443"
         },
         {
-          "name": "tgt:tlm:upper",
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "origin": "https://www.google.com",
-      "localStorage": [
-        {
-          "name": "rc::a",
-          "value": "cmZjazJiMWlzaGFiYQ=="
+          "name": "t3D",
+          "value": "true"
         },
         {
-          "name": "rc::f",
-          "value": "0aADnWZkGmET5wFiGAv6eb1WUNbdzyK7FOSciOxVcdw47wvCJ-tKfj5cmflWtMDFW8odkpfEU"
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "tPL",
+          "value": "true"
+        },
+        {
+          "name": "tTDe",
+          "value": "transitionDelay"
         }
       ]
     }
