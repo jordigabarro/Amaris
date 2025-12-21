@@ -1,3 +1,8 @@
+
+// Validamos el endpoint de lectura
+// Lo ideal seria probar con el Id que devuelve el endpoint de registro, pero como este falla, usamos un Id fijo
+// Hemos escogido el 4, porque sabemos que existe en la base de datos de reqres.in solomenet existen 12 usuarios
+
 import { test, expect, request } from '@playwright/test';
 
 test('Validate GET User by id', async () => {

@@ -1,3 +1,8 @@
+
+// Este test fallará ya que el status que estamos validando no es el correcto. Se ha diseñado el test como si fuera correcto
+// El Endppoint falla porque la API KEY no tiene permisos de crear o modificar, solo lectura
+
+
 import { test, expect, request } from '@playwright/test';
 
 test('Validate POST register', async () => {
